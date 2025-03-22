@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calendar</h1>
+        <div class="calendar">
+            <div class="currentActiveMonth">
+                <h2 id="topFullDate"></h2>
+                <div class="navigation">
+                    <div class="button" id="prev">
+                        <img src="./img/up.svg" alt="Previous">
+                    </div>
+                    <div class="button" id="next">
+                        <img src="./img/down.svg" alt="Next">
+                    </div>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <td>Mon</td>
+                    <td>Tue</td>
+                    <td>Wed</td>
+                    <td>Thu</td>
+                    <td>Fri</td>
+                    <td>Sat</td>
+                    <td>Sun</td>
+                </tr>
+                <tbody id="dates"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
